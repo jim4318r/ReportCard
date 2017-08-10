@@ -5,7 +5,7 @@ import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity {
 
-    public int chemistryGrade;
+    public char chemistryGrade;
     public String mathGrade;
     public int historyGrade;
     public double biologyGrade;
@@ -16,10 +16,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-    public int getChemistrygrade() {
+    public char getChemistrygrade() {
         return chemistryGrade;
     }
-    public void setChemistryGrade(int grade){
+    public void setChemistryGrade(char grade){
         chemistryGrade = grade;
     }
 
